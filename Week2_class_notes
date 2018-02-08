@@ -36,7 +36,7 @@ var secondsinayear = secondsinaday * daysinayear
 undefined
 secondsinayear
 31536000
-var myage = 77
+var myage = 21
 undefined
 myage * secondsinayear
 2428272000
