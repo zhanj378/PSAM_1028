@@ -3,13 +3,18 @@ undefined
 var lastName = "Zhang"
 undefined
 var firstLetter = firstName.slice(0,1)
-
 undefined
 var middleLetter = middleName.slice(0,1)
-
 undefined
 var lastLetter = lastName.slice(0,1)
-
+undefined
+fullname
+"Jiaweizhang"
+var firstletter = firstname.slice(0,1)
+undefined
+var lastletter = lastname.slice(0,1)
+undefined
+var monogram = firstletter + lastletter
 undefined
 monogram = firstLetter+middleLetter+lastLetter
 "JZ"
