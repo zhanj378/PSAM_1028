@@ -1,4 +1,5 @@
-var firstName = "jiawei"
+var name = 'This is my name';
+
 undefined
 var lastName = "Zhang"
 undefined
