@@ -8,7 +8,7 @@
     <script type="text/javascript">
     //An array of words
 
-    var words = ["eiffel tower", "big ben", "leaning tower of pisa", "colosseum", "empire state building", "hollywood", "golden Gate Bridge", "tokyo tower", "london eye", “the great wall”]
+    var words = ["eiffel tower", "big ben", "leaning tower of pisa", "colosseum", "empire state building", "hollywood", "golden Gate Bridge", "tokyo tower", "london eye", "the great wall"]
 
     //Pick a random word from the words array
 
@@ -50,6 +50,8 @@
                 remainingLetters--
                     }
                 }
+            }
+        }
         //End of the game loop
 
         //Show answer and congratulate the player
