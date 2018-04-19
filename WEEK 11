@@ -1,0 +1,81 @@
+<html><head>
+  <title id="title"> Happy National Puppy Day </title>
+<style>
+body {background-color: lightblue;}
+</style></head>
+
+
+<body>
+<h1 style="color:pink;">Happy National Puppy Day</h1>
+<p style="color:White;">March 23rd</p>
+
+
+
+
+<div id="scene1" style="center"="display: block;">
+  <pre style="center=display: block; align-content: center;">
+    __
+o-''|\_____/)
+ \_/|_)     )
+    \  __  /
+    (_/  (_/   
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+</pre>
+</div>
+
+
+<div id="scene2" style="display: none;">
+<pre style="display: block;">
+
+   __      __
+o-''|\_____||
+ \_/|_)     )
+    \  __  /
+    [_)  [_)  
+-------------------
+-------------------
+</pre>
+</div>
+
+
+<div id="scene3">
+<pre style="display: block;">
+      
+ 
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+  $("#scene1").hide();
+  $("#scene2").hide();
+  i = 1;
+  function loop() {
+    switch(i) {
+      case 1:
+        $("#scene2").hide();
+        $("#scene1").show();
+        i = 2;
+        break;
+      case 2:
+        $("#scene1").hide();
+        $("#scene2").show();
+        i = 1;
+        break;
+    }
+  }
+  loop();
+  setInterval(loop, 1000);
+
+
+$(document).ready(function() {
+  $("pre").fadeOut(0).fadeIn(3000)
+})
+
+
+</script>
